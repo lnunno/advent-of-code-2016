@@ -1,5 +1,5 @@
 import unittest
-from taxi import manhattan_distance, visited_twice
+from day01.taxi import manhattan_distance, visited_twice
 
 
 class TestCase(unittest.TestCase):
