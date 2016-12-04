@@ -21,7 +21,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(200, get_checksum('totally-real-room-200[decoy]'))
     
     def test_decode_shift_cipher(self):
-        self.assertEqual('very encrypted name', decode_shift_cipher('qzmt-zixmtkozy-ivhz-343'))
+        self.assertEqual('very encrypted name', decode_shift_cipher('qzmt-zixmtkozy-ivhz-343[abcd]'))
 
 if __name__ == '__main__':
     unittest.main()
