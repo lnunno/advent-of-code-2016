@@ -5,7 +5,7 @@ import os
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 
 def main():
-    # part1()
+    part1()
     part2()
 
 def part1():
