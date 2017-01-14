@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-import os
 import unittest
 from day08.two_factor import make_array, rect, rotate_col, rotate_row
 

@@ -3,3 +3,5 @@ pylint
 pandas
 numpy
 nose
+mypy
+jedi
